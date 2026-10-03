@@ -1,0 +1,127 @@
+public class demo {
+    public static void main(String[] args) {
+//arithmatic operator
+        int num  = 100;
+        float value = num;
+        System.out.println("integer " + num);
+        System.out.println("float " + value);*/
+
+         int a = 56;
+        int b = 76;
+        System.out.println("addition = " + (a+b));
+        System.out.println("substraction = " + (a-b));
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(a%b);
+        
+        //relational operator
+        int c = 45;
+        int d = 38;
+        System.out.println(c>d);
+        System.out.println(c<d);
+        System.out.println(c==d);
+        System.out.println(c>=d);
+        System.out.println(c!=d);
+        System.out.println(c<=d);
+
+//logic operator
+/*int age = 20;
+System.out.println(age>=18 && age<=60);
+System.out.println(age<=16 || age>=23);
+System.out.println(!(age >= 18));
+
+int e = 29;
+e += 4;
+System.out.println(e);
+e -= 5;
+System.out.println(e);
+e *= 4;
+System.out.println(e);
+
+
+
+int f = 46;
+System.out.println(f++);
+System.out.println(f);
+
+
+int age = 5;
+if(age>=18){
+    System.out.println("you are eligible for vote");
+}else{
+    System.out.println("not eligible");
+}
+
+ int num = 7;
+ if(num % 2 == 0){
+    System.out.println("even");
+ }else{
+    System.out.println("odd");
+ }
+int marks = 46;
+if(marks>= 73){
+    System.out.println("excelent");
+}else if (marks>=60) {
+    System.out.println("good");
+}else if (marks>= 50) {
+    System.out.println("average");
+}else if (marks>=30) {
+    System.out.println("improvement");
+}else{
+    System.out.println("fail");
+
+}
+
+int p = 45;
+int q = 46;
+int r = 87;
+if(p>q && p>r){
+    System.out.println("p is largest");
+}else if (q>p && q>r) {
+    System.out.println("q is largest");
+    
+}else{
+    System.out.println("r is largest");
+}
+
+int year = 2024;
+if(year % 400 ==0 || year % 4 ==0){
+    System.out.println("leap year");
+
+}else{
+    System.out.println("not leap year");
+}
+int t = 53;
+if(t % 5 == 0 && t % 11 ==0){
+    System.out.println("divisible by both");
+}else{
+    System.out.println("not divisible");
+}
+
+
+String username = "admin";
+String password = "1234";
+if(username.equals("admin") ||password.equals("1234")){
+System.out.println("login successful");
+}else{
+    System.out.println("not login");
+}
+
+int n = 17;
+boolean prime = true;
+if(n<=1){
+    prime = false;
+}else{
+    for(int i = 2; i < n; i++){
+        if(n % 2 == 0){
+            prime = false;
+            break;
+        }
+    }
+}
+if(prime)
+    System.out.println("prime");
+else
+    System.out.println("mot prime");
+
+    
